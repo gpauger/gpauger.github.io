@@ -7,12 +7,12 @@
 /* Global Styles */
 
 html,
-body, #everything {
+body, #home {
     width: 100%;
     height: 100%;
 }
 
-#everything     {
+#home   {
     width:100%;
     height: 100%;
     -webkit-transform-origin: left top;
@@ -24,13 +24,15 @@ body, #everything {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-.section-heading {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: bold:
+h3 {
+    padding: 10px 10px 25px 10px;
+    text-decoration-line: underline;
+    
 }
+h4 {
+    text-align: center;
+}
+
 
 
 .text-vertical-center {
@@ -80,61 +82,12 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-.liContact	{
-	margin-top: 50px;
-    margin-bottom:20px;
-}
 
-#features{
-	text-align:center;
-}
-
-
-.feature img	{
-	margin: 15px 0 15px;
-}
-
-.panel {
-	border: none;
-}
-
-#liButton, #gitButton {
-
-    color:black;
-    display:inline-block;
-    padding: 6px 6px;
-    text-indent:0;
-}
-
-#liButton:hover, #gitButton:hover	{
-   
-    color:black;
-    display:inline-block;
-    background-color:#87c8ff;
-    text-indent:0;
-    }
 
 .languageItem	{
 	max-height:185px;
 }
 
-.modalLanguage {
-    max-height:125px;   
-}
-
-.modal-body  {
-    text-align:left;
-}
-
-/* Custom Horizontal Rule */
-
-hr.small {
-    max-width: 300px;
-}
-hr.medium {
-    max-width: 80%;
-    min-width: 50%;
-}
 
 /* Side Menu */
 
@@ -273,16 +226,16 @@ img.db {
     margin-bottom: 30px;
 }
 
-.blueBG {
-    background:#6897bb;
+.BG1 {
+    background:#bce8f8;
 }
 
-.orangeBG {
-    background:#95DDBE;
+.BG2 {
+    background:#dddff100;
 }
 
-.redBG {
-    background:#CFCFF2;
+.BG3{
+    background:#bce8f8;
 }
 
 
