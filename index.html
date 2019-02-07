@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Greg Auger | github.io | Software Developer</title>
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="./css/styles.css" rel="stylesheet">
@@ -63,19 +63,81 @@
    <section id="Development" class="BG1">
     <div class="container">
         <div class="row"> 
-            <h3>Developer Skills</h3>
+            <h3>Fullstack Developer Skills</h3>
         </div>
         <div class="row">
           <div class="col">
-            <h4><img src="./img/webDev.png" alt="Web Dev Languages" class="languageItem">
-                        </span>
-                        
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+                        <img src="./img/webDev.png" alt="Web Dev Languages" class="languageItem">
+                      </button>
+            
+<!-- Modal 1-->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Web Development</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    As a wep developer I am experienced with <br>
+                    -HTML, <br>
+                    -CSS, <br>
+                    -Bootstrap, <br>
+                    -JavaScript, <br>
+                    -Jquery,<br>
+                    and always learning more!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Modal 1-->
+                        <h4>
                             <strong>Web Development</strong>
                         </h4>
-                        <div class="description">As a wep developer I am experienced with HTML, CSS, <br>
-                        and JavaScript.<br><br><br>
-                        </div>
           </div>
+          
+   
+                  <div class="col">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">
+                                <img src="img/asp.png" alt="aspnet" class="languageItem">
+                              </button>
+                    
+        <!-- Modal 2-->
+        <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">ASP.NET Framework</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                            As a developer I am experienced with the ASP.NET framwork creating dynamic web applications and working
+                            with code-first databases utilizing <br>
+                            -C#<br>-JavaScript<br>-jQuery<br>-Ajax,<br> -HTML & CSS<br>
+                            -Entity Framework, <br> -SQL Server, <br>and much more! 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Modal 2-->
+                                <h4>
+                                    <strong>ASP.NET Framework</strong>
+                                </h4>
+                  </div>      
+
+
+          
           <div class="col">
             <h4> <img src="img/SQL_logo.png" alt="SQL & Database" class="languageItem">
             
@@ -84,15 +146,8 @@
             <div class="description">Experience managing SQL databases.<br><br><br>
                 </div>
           </div>
-          <div class="col">
-            <h4><img src="img/asp.png" alt="aspnet" class="languageItem">
-                       
-                            <strong>ASP.NET Framework</strong>
-                        </h4>
-                        <div class="description">As a developer I am experienced with ASP.NET framework development tools 
-                            for building dynamic websites and applications.<br><br><br>
-                            </div>
-          </div>
+         
+          
           <div class="col">
             <h4> <img src="img/GITFS_logo.png" alt="Version Control" class="languageItem">
                        
@@ -193,14 +248,13 @@
                             </div>
           </div>
           <div class="col">
-            <img src="img/GITFS_logo.png" alt="Version Control" class="languageItem">
-                        <h4>
-                            <strong>Version Control</strong>
-                        </h4>
-                        <div class="description">As a wep developer I am experienced with HTML, CSS, <br>
-                            and JavaScript.<br><br><br>
-                            </div>
-          </div>
+          
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  
         </div>
     </div>
    </section>
@@ -215,7 +269,11 @@
     </footer>
     </div>
 
-
+   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
 
 </body>
 
