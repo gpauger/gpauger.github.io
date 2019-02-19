@@ -20,6 +20,11 @@ body, #home {
     -moz-transform-origin: left top;
      transform-origin: left top;
 }
+/*---Images---*/
+.photostyle
+{
+    size: 200px, 200px;
+}
 /*---Navbar---*/
 
 .navbar {
@@ -48,7 +53,9 @@ h2{
 }
 
 h3 {
-    padding: 10px 10px 25px 10px;
+    font-style: italic; 
+    text-shadow: 2px 1px #ffffff;
+    padding-left: 15px;
     
     
 }
@@ -113,7 +120,8 @@ h4 {
 
 
 .languageItem	{
-	max-height:185px;
+   max-height:170px;
+  
 }
 
 
