@@ -262,18 +262,31 @@ img.db {
     margin-bottom: 30px;
 }
 
+.BG {
+    background: url(../img/BG3.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
 .BG1 {
-    background:#bce8f8;
+    background: url(../img/BG1.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
 .BG2 {
-    background:#fff;
+    background: url(../img/BG2.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
 .BG3{
-    background:#bce8f8;
+    background: url(../img/BG3.png);
+    background-size: auto;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
