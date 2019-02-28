@@ -95,6 +95,7 @@ h4 {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    box-shadow: 20px 20px 50px grey;
 }
 
 .btn-dark:hover,
@@ -261,35 +262,13 @@ img.db {
 .skill-item {
     margin-bottom: 30px;
 }
-
+.strip
+{
+    background-color: white;
+}
 .BG {
-    background: url(../img/BG3.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-
+        background-image: linear-gradient(to bottom right, rgb(216, 218, 219), rgb(169, 189, 216));
 }
-.BG1 {
-    background: url(../img/BG1.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.BG2 {
-    background: url(../img/BG2.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-.BG3{
-    background: url(../img/BG3.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
 
 hr.small{
     margin-bottom:40px;
