@@ -53,8 +53,8 @@ h2{
 }
 
 h3 {
-    font-style: italic; 
-    text-shadow: 2px 1px #ffffff;
+   
+  
     padding-left: 15px;
     
     
@@ -264,7 +264,9 @@ img.db {
 }
 .strip
 {
-    background-color: white;
+    background-color: rgb(113, 230, 238);
+    box-shadow: 20px 20px 50px grey;
+    padding: 20px;
 }
 .BG {
         background-image: linear-gradient(to bottom right, rgb(216, 218, 219), rgb(169, 189, 216));
