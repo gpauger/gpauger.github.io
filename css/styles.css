@@ -263,10 +263,19 @@ img.db {
     margin-bottom: 30px;
 }
 .strip
-{
-    background-color: rgb(113, 230, 238);
+{   
+   
+    position:absolute;
+    left: 0;
+    right: 1%;
+    margin-top: 60px;
+    
+    padding:25px;
+    height:80px;
+    background-size:100%; 
+    background-color:  #77bbd6;
     box-shadow: 20px 20px 50px grey;
-    padding: 20px;
+   
 }
 .BG {
         background-image: linear-gradient(to bottom right, rgb(216, 218, 219), rgb(169, 189, 216));
